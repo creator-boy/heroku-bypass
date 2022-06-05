@@ -1,4 +1,4 @@
-FROM anasty17/mltb:latest
+FROM harshhaareddy/mega-sdk-python:latest
 
 RUN apt update && apt upgrade -y
 RUN apt-get install git -y
