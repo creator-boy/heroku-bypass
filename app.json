@@ -1,21 +1,23 @@
 {
-    "name": "Bypass mirror bot",
-    "description": "Bypass Mirror restriction",
-    "logo": "https://telegra.ph/file/3c4237dd056fcc3ed36d4.jpg",
+    "name": "Heroku app.json Maker Bot",
+    "description": "A Telegram bot for making Heroku app.json File by @AbirHasan2005",
     "keywords": [
-      "container",
-      "open",
-      "python"
+        "telegram",
+        "bot",
+        "heroku",
+        "app.json",
+        "app",
+        "json",
+        "maker",
+        "generator"
     ],
-    "stack": "container",
+    "repository": "https://github.com/AbirHasan2005/Heroku-app.json",
+    "website": "https://github.com/AbirHasan2005/Heroku-app.json",
+    "success_url": "https://t.me/HerokuAppJson_Bot",
     "env": {
       "ENV": {
       "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
       "value": "ANYTHING"
-    },
-      "Luck": {
-      "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
-      "value": "ANYTHING"
+        }
     }
-  }
 }
